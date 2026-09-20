@@ -42,5 +42,12 @@
         "psr-4": {
             "Tests\\": "tests"
         }
+    },
+    "scripts": {
+        "pre-commit": [
+            "vendor/bin/pint",
+            "vendor/bin/phpstan analyse",
+            "vendor/bin/phpunit"
+        ]
     }
 }

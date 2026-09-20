@@ -7,9 +7,10 @@ namespace Paulhibbert\Features;
 use Illuminate\Container\Container;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Config;
+use Illuminate\Support\ServiceProvider;
 use Paulhibbert\Features\Contracts\FeatureInterface;
 
-final class FeaturesServiceProvider extends \Illuminate\Support\ServiceProvider
+final class FeaturesServiceProvider extends ServiceProvider
 {
     public function register(): void
     {
