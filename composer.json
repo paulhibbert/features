@@ -21,10 +21,10 @@
     "prefer-stable": true,
     "require": {
         "php": "^8.0",
-        "illuminate/support": "^12.0",
-        "illuminate/container": "^12.0",
-        "illuminate/config": "^12.0",
-        "illuminate/view": "^12.0"
+        "illuminate/support": "^13.0",
+        "illuminate/container": "^13.0",
+        "illuminate/config": "^13.0",
+        "illuminate/view": "^13.0"
     },
     "extra": {
         "laravel": {
@@ -34,9 +34,9 @@
         }
     },
     "require-dev": {
-        "orchestra/testbench": "10.0",
-        "phpstan/phpstan": "2.1",
-        "laravel/pint": "^1.27"
+        "orchestra/testbench": "11.2",
+        "phpstan/phpstan": "2.2",
+        "laravel/pint": "^1.32.1"
     },
     "autoload-dev": {
         "psr-4": {
